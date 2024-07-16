@@ -3,9 +3,9 @@
 # 节点可在list.log中查看或手搓节点,默认端口vless:8002，vmess:8001
 #=======================================
 # 设置固定隧道参数(如果不设置，默认启用临时隧道，端口自动，无需手动设置)
-# json或token,支持直接复制全部，如cloudflared.exe service install eyxxx，F大佬json获取地址https://fscarmen.cloudflare.now.cc
-export TOK='eyJhIjoiZWU4NWQ5YmQwNTI0OThhNmIwNWY0N2NjZmQ1YjM1MzIiLCJ0IjoiMDA1NDkxN2ItNDk4Zi00MWQwLWE0MjItNDM1MGRmZjgyYjc4IiwicyI6Ik1XSmlZbVk0WkdFdFlUVTBNUzAwWlRBeUxUazNOREF0WXpjNU5HWmlZVGRqTldNNSJ9' 
-export ARGO_DOMAIN='tong.ab66.filegear-sg.me'
+# json或token,支持直接复制全部，如cloudflared.exe service install eyxxx
+export TOK='eyJhIjoiZWU4NWQ5YmQwNTI0OThhNmIwNWY0N2NjZmQ1YjM1MzIiLCJ0IjoiMmE3YTkzZjQtZWMzOS00M2EwLWE4ODktZDNlYzY1YjQ3MTJmIiwicyI6IllUQmhPRFUyTnprdE1UTTRZeTAwTkRSakxXRTNPRFF0TW1KaFptRTRNV0kwT0dNMSJ9' 
+export ARGO_DOMAIN='ps.ab66.filegear-sg.me'
 #=======================================
 #设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
 export NEZHA_SERVER=''
@@ -14,7 +14,7 @@ export NEZHA_PORT='443'
 export NEZHA_TLS='1'
 #=======================================
 # 下面设置UUID和路径，CF_IP是优选IP，SUB_NAME为节点名称
-export UUID='fd80f56e-93f3-4c85-b2a8-c77216c369a7'
+export UUID='fd80f56e-93f3-4c85-b2a8-c28216c369a7'
 export VPATH='vls' #vless路径
 export MPATH='vms' #vmess路径
 export CF_IP='ip.sb'
